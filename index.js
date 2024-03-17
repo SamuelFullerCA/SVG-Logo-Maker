@@ -2,33 +2,33 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateSVG = require("./generateSVG");
 
-//prompt of questions and returns the mardown file
+//prompts the user with questions and returns the generated SVG file using the generateSVG function
 inquirer
     .prompt([
 
         {
             type: 'input',
             name: 'text',
-            message: 'text'
+            message: 'Add 3 letters to your Logo:'
         },
 
         {
             type: 'input',
             name: 'txtColor',
-            message: 'text color'
+            message: 'What color would you like your text?'
         },
     
         {
             type: 'list',
             name: 'shape',
-            message: '',
-            choices: ['circle', 'triangle']
+            message: 'Please select a shape:',
+            choices: ['circle', 'triangle', 'square']
         },
 
         {
             type: 'input',
             name: 'shpColor',
-            message: 'shape color'
+            message: 'What color would you like your shape?'
         }
     ])
     .then((data) => {
