@@ -44,4 +44,5 @@ Three tests can be ran to verify that each shape is generated in the correct for
 
 Any questions please reachout at: samuelfullerca@gmail.com
 
-To view additional applications developed by myself, checkout my GitHub profile: SamuelFullerCA
+To view additional applications developed by myself, checkout my GitHub profile: 
+<a href="https://github.com/SamuelFullerCA"> SamuelFullerCA </a>
