@@ -5,7 +5,6 @@ const generateSVG = require("./generateSVG");
 //prompts the user with questions and returns the generated SVG file using the generateSVG function
 inquirer
     .prompt([
-
         {
             type: 'input',
             name: 'text',
