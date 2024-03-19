@@ -31,7 +31,7 @@ inquirer
         }
     ])
     .then((data) => {
-        fs.writeFile('sampleLogo.svg', generateSVG(data), (err) =>
+        fs.writeFile('Logo.svg', generateSVG(data), (err) =>
     err ? console.error(err) : console.log('LOGO generated')
   );
     });
